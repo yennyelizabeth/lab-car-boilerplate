@@ -20,7 +20,53 @@ body,html {
     background-image:url('../assets/images/taxi.jpg');
     background-size:cover;
   }
-  
+  .background-2 {
+    width:100%;
+    height:80%;
+    height:calc(100% - 1px);
+    background-color: #f3d008;
+  }
+
+  .background-3 {
+    width:100%;
+    height:100%;
+    height:calc(100% - 1px);
+    background-image:url('../assets/images/conduce.jpg');
+    background-size:cover;
+  }
+
+  .localization-1 {
+    background-color: #f3d008;
+    width: 70%;
+    height: 35%;
+    bottom: -10%;
+    display: flex;
+    flex-direction: column;
+   }
+
+.localization-2 {
+ opacity: 10%;
+  width: 100%;
+  height: 50%;
+  top: 5%;
+  transform: translateX(10%);
+}
+
+#btn-3 {
+    background-color: #f3d008;
+}
+.content-2 {
+   background-color:  #f3d008;
+  border-width:1px;  
+   border-style:solid;
+   margin-top:10%;
+   width: 80%;
+   height: 65%;
+}
+
+.img-1 {
+  padding: 15%;
+}
   .wide img {
     width:100%;
   }
@@ -38,4 +84,74 @@ body,html {
     white-space:no-wrap;
     overflow:hidden;
     text-align:center;
+  }
+
+
+  /*  nuevo stilos */
+  @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
+  
+  body {
+      background: url('/assets/64531/green_suburb.jpg') no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      color:#fff;
+        background-color:#333;
+        font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+  }
+  
+  a:link, a:visited {
+      color:#eee;
+  }
+  
+  .block {
+      background-color:rgba(0,0,0,0.2);
+      height:370px;
+        padding-left:12px;
+        padding-right:12px;
+  }
+  
+  .block-sm {
+      height:180px;
+  }
+  
+  .btn-flat {
+        font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+      border-radius:0px;
+        border-width:0;
+        background-image:none;
+        padding:16px;
+        margin:0 auto;
+        margin-top:15px;
+        width:70%;
+      font-size:20pt;
+  }
+  
+  /* mini carousel */
+  .carousel-inner img {
+      width:100%;
+        height:100%;
+  }
+  
+  #myCarousel {
+      font-size:90%;
+  }
+  
+  .carousel-controls-mini {
+      margin-left:42%;
+  }
+  
+  .carousel-controls-mini > a {
+      border:1px solid #eee;
+        margin:1px;
+        width:20px;
+      display:block;
+        float:left;
+      text-align:center;
+  }
+  
+  #carousel-bounding-box {
+    margin:0 auto;
+    width:300px;
   }
