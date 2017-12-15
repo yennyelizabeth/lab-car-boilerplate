@@ -39,7 +39,6 @@ body,html {
   .localization-1 {
     background-color: #f3d008;
     margin-top: 12%;
-    
     display: flex;
     flex-direction: column;
     padding-bottom:3%;
@@ -161,5 +160,23 @@ body,html {
       font-size:20pt;
   }
   
+  .footer-list-1 , .footer-list-2 , .footer-list-3{
+    list-style: none;
+  }
   /* medias*/
-@media ( )
+  @include media-breakpoint-up(xs) { 
+    .btn-1 {
+      display: none;
+     }
+    .btn-2 {
+      display: none;
+    }
+    }
+
+    /*
+  @include media-breakpoint-up(sm) { ... }
+  @include media-breakpoint-up(md) { ... }
+  @include media-breakpoint-up(lg) { ... }*/
+
+  @include media-breakpoint-up(xl) {
+     }
