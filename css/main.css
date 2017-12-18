@@ -132,65 +132,10 @@ body,html {
     text-align:center;
   }
 
-
-  /*  nuevo stilos */
-  @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
-  
-  body {
-      background: url('/assets/64531/green_suburb.jpg') no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      color:#fff;
-        background-color:#333;
-        font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
-  }
-  
-  a:link, a:visited {
-      color:#eee;
-  }
-  
-  .block {
-      background-color:rgba(0,0,0,0.2);
-      height:370px;
-        padding-left:12px;
-        padding-right:12px;
-  }
-  
-  .block-sm {
-      height:180px;
-  }
-  
-  .btn-flat {
-        font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
-      border-radius:0px;
-        border-width:0;
-        background-image:none;
-        padding:16px;
-        margin:0 auto;
-        margin-top:15px;
-        width:70%;
-      font-size:20pt;
-  }
-  
-  .footer-list-1 , .footer-list-2 , .footer-list-3{
-    list-style: none;
-  }
-  /* medias*/
-  @include media-breakpoint-up(xs) { 
-    .btn-1 {
-      display: none;
-     }
-    .btn-2 {
-      display: none;
-    }
-    }
-
-    /*
-  @include media-breakpoint-up(sm) { ... }
-  @include media-breakpoint-up(md) { ... }
-  @include media-breakpoint-up(lg) { ... }*/
-
-  @include media-breakpoint-up(xl) {
-     }
+  .modal:nth-of-type(even) {
+    z-index: 1042 !important;
+}
+.modal-backdrop.in:nth-of-type(even) {
+    z-index: 1041 !important;
+}
+    
